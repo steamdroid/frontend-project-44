@@ -1,11 +1,14 @@
 import readlineSync from 'readline-sync';
+import welcomePlayer from './welcomePlayer.js';
 import getRandomNumber from './randomNumber.js';
 
-const evenGame = (playerName) => {
+const evenGame = () => {
   let isAllAnswersCorrect = true;
 
   const correctAnswersToWin = 3;
   let correctAnswers = 0;
+
+  const playerName = welcomePlayer();
 
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
