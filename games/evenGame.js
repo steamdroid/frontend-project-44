@@ -1,5 +1,5 @@
 import gameFlow from '../src/index.js';
-import getRandomNumber from '../src/random.js';
+import { getRandomNumber } from '../src/random.js';
 
 const getNewQuestion = () => {
   const randomNumber = getRandomNumber(1, 30);

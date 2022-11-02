@@ -1,6 +1,6 @@
 import gameFlow from '../src/index.js';
 import { getRandomNumber, getRandomArrayItem } from '../src/random.js';
-import getExpressionResult from '../src/math.js';
+import { getExpressionResult } from '../src/math.js';
 
 const getNewQuestion = () => {
   const allowedOperators = ['+', '-', '*'];
