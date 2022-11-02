@@ -23,3 +23,15 @@ export const getGCD = (a, b) => {
 
   return numerator;
 };
+
+export const getArithmeticSequence = (start, step, length = 10) => {
+  const sequence = [];
+  let currentValue = start;
+
+  while (sequence.length < length) {
+    sequence.push(currentValue);
+    currentValue += step;
+  }
+
+  return sequence;
+};
