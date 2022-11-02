@@ -8,3 +8,4 @@
 * [brain-even](https://asciinema.org/a/IAAStLimPKDYky45CEoOvYLBl)
 * [brain-calc](https://asciinema.org/a/nyXiP4mCp71VM6chRvuSTVlCs)
 * [brain-gcd](https://asciinema.org/a/soFERMvxg5Nia7eMepyTmYDcJ)
+* [brain-progression](https://asciinema.org/a/I5izhlMw5JR2fWtdUA37XGraO)
