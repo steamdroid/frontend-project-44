@@ -1,18 +1,6 @@
 import gameFlow from '../src/index.js';
 import { getRandomNumber, getRandomArrayItem } from '../src/random.js';
-
-const getExpressionResult = (opA, opB, operator) => { // todo move to a dedicated module with math
-  switch (operator) {
-    case '+':
-      return opA + opB;
-    case '-':
-      return opA - opB;
-    case '*':
-      return opA * opB;
-    default:
-      return null;
-  }
-};
+import getExpressionResult from '../src/math.js';
 
 const getNewQuestion = () => {
   const allowedOperators = ['+', '-', '*'];
