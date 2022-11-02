@@ -24,14 +24,14 @@ export const getGCD = (a, b) => {
   return numerator;
 };
 
-export const getArithmeticSequence = (start, step, length = 10) => {
-  const sequence = [];
+export const getArithmeticProgression = (start, step, length = 10) => {
+  const progression = [];
   let currentValue = start;
 
-  while (sequence.length < length) {
-    sequence.push(currentValue);
+  while (progression.length < length) {
+    progression.push(currentValue);
     currentValue += step;
   }
 
-  return sequence;
+  return progression;
 };
