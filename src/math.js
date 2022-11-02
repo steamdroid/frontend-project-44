@@ -45,7 +45,7 @@ export const isPrimeNumber = (number) => {
     return true;
   }
 
-  for (let i = 2; i < (number - 1); i += 2) {
+  for (let i = 2; i < (number - 1); i += 1) {
     if (number % i === 0) {
       return false;
     }
